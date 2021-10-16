@@ -1,0 +1,1 @@
+palindromo(LISTA):- reverse(LISTA, LISTA).
