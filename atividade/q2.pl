@@ -1,4 +1,1 @@
-Traduzir(Palavra_ingles, Palavra_portugues):- Palavra_ingles == 'wall', Palavra_portugues ='muro'.
-Truzir(Palavra_ingles, Palavra_portugues):- Palavra_ingles == 'book', Palavra_portugues = 'livro'.
-Truzir(Palavra_ingles, Palavra_portugues):- Palavra_ingles == 'table', Palavra_portugues = 'mesa'.
-
+traduzir_ingles_portugues(Palavra_ingles):- (Palavra_ingles == 'wall' -> write('muro'); Palavra_ingles == 'book' -> write('livro'); Palavra_ingles == 'table' -> write('mesa'); write('Sem tradução')).
