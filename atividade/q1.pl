@@ -17,9 +17,11 @@ nacionalidade(X) :- nasceu_como(X,Y), write(Y).
 escreveu_que_livro(X) :- autor(X,Y), write(Y).
 
 
-a :- write("\n\n Qual a nacionalidade de "), robert, write("? Resposta:"), nacionalidade(robert).
-b :- write("\n\n Qual livro "), robert, write(" escreveu? Resposta:"), escreveu_que_livro(robert).
-c :- write("\n\n Que ciência deve ter o ponto central de estudo da "), realidade, write("? Resposta:"), qual_ciencia_deve_estudar(realidade).
-d :- write("\n\n A "), consciencia, write(" é imortal? Resposta:"), eh_imortal(consciencia).
+a :- nl,write("Qual a nacionalidade de "), robert, write("? Resposta:"), nacionalidade(robert).
+b :- nl,write("Qual livro "), robert, write(" escreveu? Resposta:"), escreveu_que_livro(robert).
+c :- nl,write("Que ciência deve ter o ponto central de estudo da "), realidade, write("? Resposta:"), qual_ciencia_deve_estudar(realidade).
+d :- nl,write("A "), consciencia, write(" é imortal? Resposta:"), eh_imortal(consciencia).
 
 main :- a,b,c,d.
+
+%https://swish.swi-prolog.org/p/q1_prologo_ia.swinb

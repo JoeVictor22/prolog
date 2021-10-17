@@ -27,3 +27,4 @@ dicas(Casas) :-
     member(uma_casa(_,zebra,_,_,_), Casas).      
 
 casas_proximas(A, B, Casas) :- append(_, [A,B|_], Casas).
+%https://swish.swi-prolog.org/p/q10_prologo_ia.swinb

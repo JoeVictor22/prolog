@@ -1,1 +1,2 @@
-traduzir_ingles_portugues(Palavra_ingles):- (Palavra_ingles == 'wall' -> write('muro'); Palavra_ingles == 'book' -> write('livro'); Palavra_ingles == 'table' -> write('mesa'); write('Sem tradução')).
+traduzir_ingles_portugues(Palavra_ingles):- (Palavra_ingles == 'wall' -> write('muro'); Palavra_ingles == 'book' -> write('livro'); Palavra_ingles == 'table' -> write('mesa').
+%https://swish.swi-prolog.org/p/q2_prologo_ia.swinb
